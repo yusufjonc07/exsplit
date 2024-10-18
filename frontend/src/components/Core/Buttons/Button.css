@@ -1,0 +1,54 @@
+:root {
+  /* Background colors */
+  --primary-background: transparent;
+
+  /* Background hover colors */
+  --primary-hover: #ddd;
+
+  /* Border colors */
+  --primary-border: #ccc;
+
+  /* Text colors */
+  --primary-text: inherit;
+}
+
+.btn {
+  border-radius: 6.5px;
+  color: inherit;
+  padding: 6px 10px;
+  font-size: 20px;
+  min-height: 40px;
+  cursor: pointer;
+  border: 1px solid;
+  transition: 0.3s;
+  font-family: "Playwrite GB S", cursive;
+  user-select: none;
+}
+
+.btn:hover{
+    transition: 0.3s;
+}
+
+.btn:active{
+    transform: scale(1.05);
+}
+
+
+/* Primary Button */
+
+.btn-primary {
+  background-color: var(--primary-background);
+  border-color: var(--primary-border);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+
+/* Secondary Button */
+
+.btn-secondary {
+  background-color: #adcb3f;
+  border-color: #ddd;
+}
