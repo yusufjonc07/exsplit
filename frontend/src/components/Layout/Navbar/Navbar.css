@@ -1,0 +1,38 @@
+.navbar-container {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.navbar-list {
+  margin: 0;
+  padding : 0 2rem;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-list li {
+  margin: 0.5rem;
+  cursor: pointer;
+  padding-bottom: 7px;
+  position: relative;
+  text-align: center;
+}
+
+.navbar-list li span {
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  background-color:  orange;
+  bottom: 0px;
+  left: 0px;
+  justify-content: center;
+}
+
+.navbar-list li:hover{
+  color: #7d7c7c;
+}
+
+.navbar-list li:hover span {
+  width: 100%;
+  transition: 0.3s;
+}

@@ -1,0 +1,12 @@
+.loader-container{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}

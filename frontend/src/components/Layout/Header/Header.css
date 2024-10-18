@@ -1,5 +1,8 @@
 .header{
-    background-color: red;
+    background-image: url(../../../assets/images/header-background.png);
+    transition: 0.3s;
+    background-size: 100%;
     color: white;
-    padding:5px;
+    padding: 1rem 2rem;
+    text-align: center;
 }

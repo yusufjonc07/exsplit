@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
-import Button from "./components/Core/Buttons/Button";
-import Card from "./components/Core/Card/Card";
-import Header from "./components/Layout/Header/Header";
+import Loader from "./components/Layout/Loader/Loader";
+import Layout from "./components/Layout/Layout";
 
 function App() {
+  const [isLoading, /* setIsLoading */] = useState(false);
   return (
     <React.Fragment>
-      <Header title="exsplit" />
-      <Card>salom</Card>
-      <Button className="btn-secondary m-2">Shuhratjon</Button>
+
+      {/* Main component iof the App */}
+      <Layout />
+
+      {/* Loading screen will be visible when isLoading is equal to true */}
+      {isLoading && <Loader />} 
+
     </React.Fragment>
   );
 }
