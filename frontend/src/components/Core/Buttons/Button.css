@@ -25,14 +25,18 @@
   user-select: none;
 }
 
-.btn:hover{
-    transition: 0.3s;
+.btn-sm {
+  font-size: 15px;
+  padding: 0px 5px;
 }
 
-.btn:active{
-    transform: scale(1.05);
+.btn:hover {
+  transition: 0.3s;
 }
 
+.btn:active {
+  transform: scale(1.05);
+}
 
 /* Primary Button */
 
@@ -44,7 +48,6 @@
 .btn-primary:hover {
   background-color: var(--primary-hover);
 }
-
 
 /* Secondary Button */
 

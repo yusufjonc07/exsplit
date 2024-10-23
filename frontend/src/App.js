@@ -1,20 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import Loader from "./components/Layout/Loader/Loader";
-import Layout from "./components/Layout/Layout";
+// import Loader from "./components/Layout/Loader/Loader";
+// import Layout from "./components/shared/layout/Layout";
+import {BrowserRouter as Router, Route} from "react-router-dom"
 
 function App() {
-  const [isLoading, /* setIsLoading */] = useState(false);
+  // const [isLoading, /* setIsLoading */] = useState(false);
   return (
-    <React.Fragment>
 
-      {/* Main component iof the App */}
-      <Layout />
-
-      {/* Loading screen will be visible when isLoading is equal to true */}
-      {isLoading && <Loader />} 
-
-    </React.Fragment>
+      <Router> 
+        <Route path="/">
+        </Route>
+      </Router>
+    
   );
 }
 
