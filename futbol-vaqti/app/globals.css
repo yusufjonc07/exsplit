@@ -1,0 +1,213 @@
+
+
+:root{
+  --bgSecondary: #045694;
+  --light-actionDefault: #0A84FF;
+  --light-actionPressed: #045694;
+  --light-actionDisabled: #E4E8F0;
+  --light-actionText: #FFFFFF;
+  --light-actionTextDisabled: #A5ACBB;
+  --light-actionSecDefault: #FFFFFF;
+  --light-actionSecPressed: #E4E8F0;
+  --light-actionSecDisabled: #E4E8F0;
+  --light-actionSecText: #03122B;
+  --light-actionSecTextDisabled: #A5ACBB;
+  --light-actionTerText: #03122B;
+  --light-actionTerTextDisabled: #A5ACBB;
+  --light-actionTerPressed: #E4E8F0;
+  --light-bgPrimary: #EEF2FB;
+  --light-bgPrimaryAlt: #FFFFFF;
+  --light-bgSecondary: #045694;
+  --light-bgSecondaryAlt: #044A80;
+  --light-bgTertiary: #0A84FF;
+  --light-bgTertiaryAlt: #03122B;
+  --light-bgQuaternary: #F43056;
+  --light-bgQuaternaryAlt: #7D0027;
+  --light-successPrimary: #30D158;
+  --light-successSecondary: #1A7330;
+  --light-errorPrimary: #F43056;
+  --light-errorSecondary: #7D0027;
+  --light-warningPrimary: #FF9F0A;
+  --light-warningSecondary: #8C5706;
+  --light-borderLow: #E4E8F0;
+  --light-borderMid: #A5ACBB;
+  --light-borderHigh: #505B73;
+  --light-borderTransparent: #689ABF;
+  --light-iconBackground: #404040;
+  --light-iconBackgroundPressed: #808080;
+  --light-iconBackgroundAlt: #E4E8F0;
+  --light-iconBackgroundAltPressed: #0A84FF;
+  --light-iconLight: #FFFFFF;
+  --light-iconDisabled: #A5ACBB;
+  --light-iconDarker: #0A84FF;
+  --light-iconAlternative: #505B73;
+  --light-textDefault: #03122B;
+  --light-textAlternative: #FFFFFF;
+  --light-textLow: #E4E8F0;
+  --light-textMedium: #A5ACBB;
+  --light-textHigh: #505B73;
+  --light-textPrimary: #0A84FF;
+  --light-textSecondary: #045694;
+  --light-textTertiary: #F43056;
+  --light-brandPrimary: #0a84ff;
+  --light-brandSecondary: #045694;
+  --light-brandTertiary: #f43056;
+  --containerSpacingXs: 1.5rem;
+    --containerSpacingMd: 2.5rem;
+    --containerSpacingLg: 4rem;
+    --containerSpacingXl: 5rem;
+    --containerSpacingGapXs: 1rem;
+    --containerSpacingGapMd: 1.5rem;
+    --containerSpacingGapLg: 2.5rem;
+    --containerSpacingGapXl: 2.5rem;
+    --buttonBackground: linear-gradient(111.98deg, #00b8ff 18.07%, #1574c4 90.31%);
+    --buttonBackgroundHover: linear-gradient(111.98deg, #00b8ff 18.07%, #1574c4 90.31%);
+    --buttonPadding: 0.5rem 3rem;
+    --buttonBorderRadius: 1.875rem;
+    --buttonBorderColor: #0000;
+    --buttonBorderSize: 0;
+    --buttonBorderColorHover: #0000;
+    --buttonTextColor: #fff;
+    --buttonTextColorHover: #fff;
+    --buttonTextTransform: uppercase;
+    --buttonTransition: all 0.2s ease-in-out;
+    --buttonTransformHover: scale(1.1);
+    --buttonFontSize: 0.75rem;
+    --buttonFontSizeSmall: 0.75rem;
+    --buttonFontSizeSmallLg: 0.875rem;
+    --buttonLineHeight: 160%;
+    --countdownValueFontFamily: Poppins 500, Noto Sans Regular, "Helvetica Neue", Arial, sans-serif;
+    --countdownValueFontSize: 1.875rem;
+    --countdownBulletBackground: var(--primaryColor);
+    --countdownBulletSizeExtended: 0.5rem;
+    --countdownBulletSizeExtendedMd: 0.5rem;
+    --countdownValueFontSizeExtended: 1.875rem;
+    --countdownValueFontSizeExtendedMd: 2.25rem;
+    --countdownDashesBackground: linear-gradient(90deg, #0000, var(--primaryColor));
+    --countdownGap: 3.5rem;
+    --carouselBannerArrowBackground: var(--primaryColor);
+  --brandPrimary: var(--light-brandPrimary);
+    --brandSecondary: var(--light-brandSecondary);
+    --brandTertiary: var(--light-brandTertiary);
+    --brandQuaternary: var(--light-brandQuaternary);
+    --actionDefault: var(--light-actionDefault);
+    --actionPressed: var(--light-actionPressed);
+    --actionDisabled: var(--light-actionDisabled);
+    --actionText: var(--light-actionText);
+    --actionTextDisabled: var(--light-actionTextDisabled);
+    --actionSecDefault: var(--light-actionSecDefault);
+    --actionSecPressed: var(--light-actionSecPressed);
+    --actionSecDisabled: var(--light-actionSecDisabled);
+    --actionSecText: var(--light-actionSecText);
+    --actionSecTextDisabled: var(--light-actionSecTextDisabled);
+    --actionTerText: var(--light-actionTerText);
+    --actionTerTextDisabled: var(--light-actionTerTextDisabled);
+    --actionTerPressed: var(--light-actionTerPressed);
+    --bgPrimary: var(--light-bgPrimary);
+    --bgPrimaryAlt: var(--light-bgPrimaryAlt);
+    --bgSecondary: var(--light-bgSecondary);
+    --bgSecondaryAlt: var(--light-bgSecondaryAlt);
+    --bgTertiary: var(--light-bgTertiary);
+    --bgTertiaryAlt: var(--light-bgTertiaryAlt);
+    --bgQuaternary: var(--light-bgQuaternary);
+    --bgQuaternaryAlt: var(--light-bgQuaternaryAlt);
+    --successPrimary: var(--light-successPrimary);
+    --successSecondary: var(--light-successSecondary);
+    --errorPrimary: var(--light-errorPrimary);
+    --errorSecondary: var(--light-errorSecondary);
+    --warningPrimary: var(--light-warningPrimary);
+    --warningSecondary: var(--light-warningSecondary);
+    --borderLow: var(--light-borderLow);
+    --borderMid: var(--light-borderMid);
+    --borderHigh: var(--light-borderHigh);
+    --borderTransparent: var(--light-borderTransparent);
+    --iconBackground: var(--light-iconBackground);
+    --iconBackgroundPressed: var(--light-iconBackgroundPressed);
+    --iconBackgroundAlt: var(--light-iconBackgroundAlt);
+    --iconBackgroundAltPressed: var(--light-iconBackgroundAltPressed);
+    --iconLight: var(--light-iconLight);
+    --iconDisabled: var(--light-iconDisabled);
+    --iconDarker: var(--light-iconDarker);
+    --iconAlternative: var(--light-iconAlternative);
+    --textDefault: var(--light-textDefault);
+    --textAlternative: var(--light-textAlternative);
+    --textLow: var(--light-textLow);
+    --textMedium: var(--light-textMedium);
+    --textHigh: var(--light-textHigh);
+    --textPrimary: var(--light-textPrimary);
+    --textSecondary: var(--light-textSecondary);
+    --textTertiary: var(--light-textTertiary);
+    --bgOverlay: var(--light-bgOverlay);
+}
+
+
+a,
+b,
+blockquote,
+body,
+canvas,
+caption,
+code,
+div,
+em,
+embed,
+fieldset,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+label,
+li,
+main,
+nav,
+object,
+ol,
+p,
+pre,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+u,
+ul,
+video {
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  vertical-align: initial;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}

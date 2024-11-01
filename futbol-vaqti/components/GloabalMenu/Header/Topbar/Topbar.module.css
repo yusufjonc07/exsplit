@@ -1,0 +1,44 @@
+@import url(https://fifa.com/static/media/noto-sans-italic.woff2);
+@import url(https://fifa.com/static/media/noto-sans-regular.woff2);
+@import url(https://fifa.com/static/media/poppins-500.woff2);
+@import url(https://fifa.com/static/media/poppins-600.woff2);
+@import url(https://fifa.com/static/media/poppins-italic.woff2);
+@import url(https://fifa.com/static/media/poppins-regular.woff2);
+
+.top_bar {
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--bgSecondary);
+  border-bottom: 1px solid var(--borderTransparent);
+  display: flex;
+  height: 0.5rem;
+  height: 32px;
+  line-height: 32px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-inline-end: 2rem;
+  transition: top 0.4s linear;
+  width: 100vw;
+}
+
+.top_bar_menu {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top_bar_menu_item {
+
+  font-size: 0.75rem;
+  padding-inline-start: 1.5rem;
+}
+
+.top_bar_menu_item a {
+  color: var(--textAlternative);
+  border-radius: 0.3125rem;
+  outline: none;
+  text-decoration: none;
+  background-color: #0000;
+  font-family: Noto Sans Regular,
+  "'Helvetica Neue', Arial, sans-serif";
+}

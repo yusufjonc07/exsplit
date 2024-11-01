@@ -1,0 +1,52 @@
+.input-box {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.input-box label {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #03122b;
+}
+
+.input-box input {
+  width: 100%;
+  color: #03122b;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  padding: 1rem;
+  background: transparent;
+  border-bottom: 1px solid #a5acbb;
+}
+
+.input-box.hasError .inputErrorMsgContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+  white-space: nowrap;
+  width: 100%;
+  background: #e40046;
+  background-image: url(https://digitalhub.fifa.com/transform/51ca19e6-8987-4fa2-ac1e-d30cc69152bf/field-error-white?io=transform:fit,width:20,height:20);
+  background-repeat: no-repeat;
+  background-position: 1rem 0.35rem;
+  padding: 0 1rem;
+}
+
+.input-box.hasError .inputErrorMsg {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.5rem 0rem;
+    padding-left: 3rem;
+}
+
+.input-box.hasError input {
+  background-color: #e400461a;
+}

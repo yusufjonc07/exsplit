@@ -1,0 +1,25 @@
+.gloabal_menu {
+  background-color: var(--bgSecondary);
+  transition: height .4s linear;
+}
+
+@media (min-width: 1024px) {
+  .gloabal_menu {
+    height: 96px;
+  }
+}
+
+@media (min-width: 768px) {
+    .gloabal_menu {
+        height: 96px;
+    }
+}
+
+.gloabl_menu_top_nav {
+    background-color: var(--bgSecondary);
+    position: fixed;
+    top: 0;
+    transition: top .4s linear;
+    width: 100vw;
+    z-index: 1040; 
+}

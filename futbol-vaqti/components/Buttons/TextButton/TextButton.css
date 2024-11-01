@@ -1,0 +1,26 @@
+.btn {
+  cursor: pointer;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 5rem;
+}
+
+.btn-primary {
+    font-size: 1.4rem;
+    background: #1c2a56;
+}
+
+.btn-outline {
+  font-size: 1.4rem;
+  background: transparent;
+  color: #03122B;
+  border: 1px solid #03122B;
+}
+
+.btn-margin-top {
+    margin-top: 1rem;
+}

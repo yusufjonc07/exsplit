@@ -1,0 +1,70 @@
+#login_page{
+  width: 100vw;
+  position: fixed;
+  display: inline-flex;
+}
+
+
+.login_image_container{
+  width: 60%;
+  height: 100vh;
+  padding: 6rem;
+  position: relative;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/backgrounds/bg.jpg);
+  /* background-image: url(https://digitalhub.fifa.com/transform/81fd58d0-ca8a-411b-8bce-85c745d8b04c/FIFAPLS_SignIn_Hero_02); */
+}
+
+.login_image_container h1{
+  font-size: 3rem;
+}
+
+.login_page_center{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+.login_page_center h1{
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.login_page_center h2{
+  margin-top: 20px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.login_form_container{
+  width: 40%;
+  height: 100vh;
+  padding: 7rem 6rem;
+}
+
+.login_form_container h1{
+  font-size: 4.2rem;
+  font-weight: 500;
+}
+
+.login_form_container form{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-top: 3rem;
+}

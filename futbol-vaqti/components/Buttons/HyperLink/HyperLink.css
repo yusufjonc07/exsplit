@@ -1,0 +1,10 @@
+.btn-hyperlink {
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #0A71B4;
+    font-size: 1.6rem;
+    padding-left: 0;
+    text-decoration: none;
+}
